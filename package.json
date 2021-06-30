@@ -2,16 +2,16 @@
   "name": "parse-image",
   "description": "parse-image",
   "main": "index.js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "dependencies": {
     "gm": "~1.23.1",
-    "parse": "^2.0.1"
+    "parse": "^3.2.0"
   },
   "devDependencies": {
     "codecov": "^3.1.0",
-    "looks-same": "^4.1.0",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0"
+    "looks-same": "^7.3.0",
+    "mocha": "^9.0.1"
   },
   "scripts": {
     "preinstall": "./install.sh",
@@ -33,6 +33,6 @@
     "module"
   ],
   "peerDependencies": {
-    "parse": "^2.1.0"
+    "parse": "^3.2.0"
   }
 }

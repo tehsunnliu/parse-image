@@ -1,4 +1,11 @@
 # Change Log
+## [0.3.1](https://github.com/flovilmart/parse-image/tree/0.3.1)
+
+**Updated Packages**
+
+- updated Parse to 3.2.0
+- updated looks-same to 7.3.0
+- updated mocha to 9.0.1"
 
 ## [0.2.0](https://github.com/flovilmart/parse-image/tree/0.2.0)
 
