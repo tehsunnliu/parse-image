@@ -12,6 +12,11 @@ then
 	exit 0;
 fi
 
+# Check if running on Windows
+if [[ "$OS" == "Windows_NT" ]]; then
+    echo "This script does not support Windows OS. Please install graphicsmagick and imagemagick dependencies manually.";
+    exit 1;
+fi
 
 INSTALL=0;
 brew --version > /dev/null 2>&1 && INSTALL=1;
